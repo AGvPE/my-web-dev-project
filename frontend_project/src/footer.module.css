@@ -1,0 +1,117 @@
+.footer{
+    width: 100%;
+    height: 42.5vh;
+    padding-top: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+  }
+  
+  .footer-above {
+    width: 80%;
+    height: 60%;
+    margin-left: 6%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 18%;
+  }
+  
+  .footer-li{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left: 50px;
+    flex-direction: row;
+    gap: 30%;
+    color: white;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: bold;
+    color: #fff;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .footer-li ul{
+    list-style-type: none;
+    margin-top: 0;
+  }
+  
+  .footer-li ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-below{
+    width: 80%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  
+  .footer-below p {
+    color: #fff;
+    /* line-height: 60px; */
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  hr {
+    bottom: 35px; /* Adjust distance from text */
+    width: 90%; /* Short underline */
+    height: 1px;
+    background-color: #fff;
+    border: none;
+  }
+
+  @media screen and (max-width: 1000px) {
+
+    .footer{
+        width: 100%;
+        height: auto;
+        padding-top: 60px;
+        padding-bottom: 40px;
+        background-color: #030303;
+    }
+
+    .footer-above{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        margin: 0;
+    }
+
+    .footer-li{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 20px;
+        align-self: flex-start;
+        width: 100%;
+        height: 70%;
+    }
+
+    .footer-below{
+        width: 100%;
+    }
+
+    hr{
+        width: 100%;
+    }
+  }

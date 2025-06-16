@@ -1,0 +1,209 @@
+.contact-section1 {
+    height: 70vh;
+    width: 100%;
+    background-image: url(/contact.jpg);
+    background-repeat: no-repeat;
+  }
+  
+  .contact-section1 h1{
+    position: absolute;
+    left: 15%;
+    top: 32%;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #fff;
+  }
+  
+  .contact-section2{
+    width: 100%;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 0;
+  }
+  
+  .contain-form{
+    width: 60%;
+    height: 87%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.281);
+  }
+  
+  .contain-form h3{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #4a4a4a;
+    line-height: 1.4em;
+    text-align: center;
+  }
+  
+  .contain-form p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #747474;
+    line-height: 1.4em;
+  }
+  
+  .contact-form{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .contact-names{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 15px;
+  }
+  
+  .contact-name{
+      width: 50%;
+      height: 40px;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.3;
+      color: #747474;
+  }
+  
+  .contact-email{
+    width: 95%;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #747474;
+  }
+  
+  .contact-message{
+    width: 95%;
+    height: 100px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.3;
+    color: #747474;
+  }
+  
+  .contact-btn {
+    padding: 15px 20px 15px 20px;
+    background-color: #526658;
+    color: white;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+    font-weight: 400;
+    line-height: 1.4em;
+    border: solid 1px transparent;
+  }
+
+  .contact-underline-after {
+    position: relative;
+    display: inline-block;
+    padding: 12px;
+  }
+  
+  .contact-underline-after::after {
+    content: "";
+    position: absolute;
+    left: 40%;
+    bottom: 2px;
+    width: 21%; 
+    height: 2px;
+    background-color: #4a4a4a;
+  }
+
+  @media screen and (max-width: 1000px) {
+    
+    main{
+        height: auto;
+    }
+
+    .contact-section1{
+        width: 100%;
+        height: 20vh;
+        background-size: cover;  
+        background-position: center;
+    }
+
+    .contact-section1 h1{
+        position: absolute;
+        left: 5%;
+        top: 17%;
+    }
+
+    .contact-section2{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+
+      .contain-form{
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 5px;
+        justify-content: space-between;
+        padding: 10px;
+        padding-bottom: 40px;
+      }
+
+      .contain-form h3{
+        margin-top: 6px;
+        padding-top: 0;
+      }
+      
+      .contain-form p{
+        width: 90%;
+        margin-top: 0;
+        text-align: center;
+      }
+      
+      .contact-form{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        gap: 15px;
+      }
+      
+      .contact-names{
+        width: 100%;
+        justify-content: center;
+        flex-direction: column;
+        gap: 15px;
+      }
+      
+      .contact-name{
+          width: 90%;
+          border: #cfd2d3 1px solid;
+      }
+      
+      .contact-email{
+        width: 90%;
+        border: #cfd2d3 1px solid;
+      }
+      
+      .contact-message{
+        width: 90%;
+        border: #cfd2d3 1px solid;
+        margin-bottom: 25px;
+      }
+      
+      .contact-btn {
+        width: 90%;
+      }
+      
+}

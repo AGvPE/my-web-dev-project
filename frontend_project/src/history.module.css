@@ -1,0 +1,208 @@
+.history-section1 {
+    height: 70vh;
+    width: 100%;
+    background-image: url(/historypage/history.jpg);
+    background-repeat: no-repeat;
+}
+  
+.history-section1 h1{
+  position: absolute;
+  left: 15%;
+  top: 32%;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #fff;
+}
+  
+  .history-section2 {
+    width: 100%;
+    height: 250vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  .history-section2 h3{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #4a4a4a;
+    text-align: center;
+  }
+
+  .history-underline-after {
+    position: relative;
+    display: inline-block;
+    padding: 12px;
+  }
+  
+  .history-underline-after::after {
+    content: "";
+    position: absolute;
+    left: 40%;
+    bottom: 2px; 
+    width: 21%; 
+    height: 2px;
+    background-color: #4a4a4a;
+  }
+  
+  
+  .history1 {
+    height: 150vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 60px;
+  }
+  
+  .history1 .text {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #747474;
+    line-height: 1.4em;
+    height: 100%;
+    width: 40%;
+  }
+  
+  .history1 .images {
+    width: 30%;
+    height: 100%;
+  }
+  
+  .images figcaption{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #747474;
+    line-height: 1.4em;
+  }
+  
+  figure {
+    margin: 0;
+    margin-left: 10px;
+  }
+  
+  .history2 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 25px;
+  }
+  
+  .history2 img{
+    width: 30%;
+  }
+  
+  .history2 .text{
+    width: 48%;
+  }
+  
+  .text h4 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #4a4a4a;
+    line-height: 1.4em;
+  }
+  
+  .history2 .text p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #747474;
+    line-height: 1.4em;
+    
+  }
+
+  @media screen and (max-width: 1000px) {
+    
+    main{
+        height: auto;
+    }
+
+    .history-section1{
+        /* background-image: url(/faq.jpg); */
+        width: 100%;
+        height: 20vh;
+        background-size: cover;  
+        background-position: center;
+        /* padding: 0; */
+        /* margin: 0; */
+    }
+
+    .history-section1 h1{
+        position: absolute;
+        left: 5%;
+        top: 17%;
+    }
+
+    .history-section2 {
+        width: 100%;
+        height: auto;
+        gap: 10px;
+        /* margin: 0 20px 0 20px; */
+    }
+
+    .history1 {
+      height: auto;
+      width: 90%;
+      /* display: flex; */
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      /* box-sizing: border-box; */
+    }
+
+    .history1 .text {
+        height: auto;
+        width: 100%;
+      }
+
+      .history1 .images {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+      }
+
+    .history2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 40px;
+        /* gap: 25px; */
+      }
+      
+      .history2 img{
+        width: 90%;
+        height: auto;
+      }
+      
+      .history2 .text{
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+
+      /* *{
+        border: solid 1px red;
+      } */
+} 

@@ -1,0 +1,199 @@
+.my-account {
+    width: 100%;
+    height: 86.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 50px;
+  }
+  
+  .login {
+    width: 40%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .login h1{
+    font-size: 36px;
+    line-height: 1.4em;
+    font-weight: 700;
+    color: #4a4a4a;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .login form{
+    height: 35%;
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 2em 0;
+    border: 1px solid #cfc8d8;
+    border-radius: 5px;
+  }
+  
+  
+  .label{
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: 700;
+    color: #747474  ;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .input{
+    padding: 6px;
+    width: 97%;
+    font-size: inherit;
+    line-height: normal;
+    font-weight: 400;
+    color: #000  ;
+    font-family: Helvetica, Arial, sans-serif;
+    border: #000 1px solid;
+    border-radius: 3px;
+  }
+  
+  .log {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  .account-btn{
+    display: inline-block;
+    font-size: 100%;
+    line-height: 1;
+    font-weight: 700;
+    color: #515151;
+    background-color: #e9e6ed;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: .618em 1em;
+    border: 0;
+    border-radius: 3px;
+    margin: 0;
+  }
+  
+  .register {
+    width: 40%;
+    height: 100%;
+    margin: 0;
+  }
+  
+  .register h1{
+    font-size: 36px;
+    line-height: 1.4em;
+    font-weight: 700;
+    color: #4a4a4a;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .register form{
+    height: 55%;
+    width: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 2em 0;
+    border: 1px solid #cfc8d8;
+    border-radius: 5px;
+  }
+  
+  .green-text{
+    color: #6c9d7b;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  form span{
+    font-size: 16px;
+    line-height: 1.4em;
+    font-weight: 400;
+    color: #747474  ;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .bihide{
+    display: block;
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    bottom: 49%;
+    left: 45.5%;
+  }
+  
+  .bihide1{
+    display: block;
+    color: #000;
+    font-size: 20px;
+    position: absolute;
+    bottom: 37.7%;
+    right: 13.3%;
+  }
+
+  @media screen and (max-width: 1000px) {
+    
+    main{
+        height: auto;
+    }
+
+    .my-account {
+        height: auto;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 0;
+        margin-bottom: 20px;
+      }
+
+      .login {
+        width: 100%;
+        height: auto;
+        margin-left:30px;
+      }
+
+      .login form{
+        height: auto;
+        width: 82%;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .bihide{
+        bottom: 59%;
+        left: 85%;
+      }
+      
+      .register {
+        width: 100%;
+        height: auto;
+        /* margin-left: 10px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 0;
+      }
+
+      .register h1{
+        margin-left: 15px;
+        align-self: flex-start;
+      }
+
+      .register form{
+        height: auto;
+        width: 82%;
+        gap: 10px;
+        margin-top: 10px;
+      }
+
+      .bihide1{
+        bottom: 19.5%;
+        right: 10.3%;
+      }
+  }      
