@@ -13,7 +13,7 @@ import Store from './Store.jsx'
 import Myaccount from './Myaccount.jsx'
 import Takethetest from './Takethetest.jsx'
 import Cart from './Cart.jsx'
-import Test1 from './test1.jsx'
+import Test1 from './Test1.jsx'
 import Test2 from './Test2.jsx'
 import Test3 from './Test3.jsx'
 
